@@ -1,12 +1,10 @@
-:root {
-    --heading-background-color: rgb(98, 0, 255);
-    --heading-text-color: #130101;
-    --heading-font: 'Montserrat', Helvetica, sans-serif;
-    --padding: 1rem;
-    --border: 1px solid rgb(0 0 0/ 0.1);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 nav {
-    background-color: rgba(30, 30, 212, 0.733);
+    background-color: darkblue;
     padding: 10px;
 }
 
@@ -17,10 +15,7 @@ nav a {
 }
 
 h1 {
-    background-color: var(--heading-background-color);
-    color: var(--heading-text-color);
-    font-family: var(--heading-font);
-    padding: var(--pading);
+    color: steelblue;
 }
 
 main img {
@@ -39,10 +34,8 @@ main {
     max-width: 840px;
 }
 aside {
-    margin: 10px auto;
-    padding: var(--padding);
-    box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
-
+    width: 20em;
+    text-align: left;
 }
 aside img {
     width: 200px;
@@ -54,6 +47,15 @@ p{ padding: 0;}
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: left;
 }
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
 
