@@ -8,25 +8,26 @@
 /* General Styling */
 body {
     font-family: "Open Sans", sans-serif;
-    line-height: 0.1px;
     color: var(--stone-gray);
+    background-color: var(--white);
     margin: 0;
     padding: 0;
-    max-width: 1100px; /* Limit page width for better design control */
-    margin: 7%;
+    max-width: 1200px; /* Limit page width for better design control */
+    margin: auto;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     font-family: "Oswald", sans-serif;
     color: var(--turquoise);
+    margin: 20px 0;
 }
 
 /* Paragraphs */
 p {
-    font-size: 20%;
+    font-size: 1.2rem;
     color: var(--deep-blue);
-    margin: auto;
+    line-height: 1.8;
 }
 
 /* Social Media Links */
@@ -47,33 +48,30 @@ p {
 
 .hero h1 {
     position: absolute;
-    top: 20%;
-    left: 5%;
-
+    top: 50%;
+    left: 50%;
     color: var(--stone-gray);
-    background-color: rgba(148, 153, 101, 0.6); /* Semi-transparent black background */
-    padding: 10px 20px;
-    font-size: 40px;
-    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .hero article {
     position: absolute;
-    bottom: 10%;
-    left: 5%;
+    bottom: 20px;
+    left: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 20px;
-    border-radius: 8px;
-    max-width: 0.1px;
+    border-radius: 10px;
+    max-width: 300px;
 }
 
 .hero article img {
     float: right;
-    width: 15px;
-    height: 150px;
-    margin-left: 0%; 
-    border-radius: 8px;
-    
+    max-width: 50%;
+    height: auto;
+    margin-left: 15px;    
 }
 
 .social-media a img {
