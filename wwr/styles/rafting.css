@@ -8,12 +8,12 @@
 /* General Styling */
 body {
     font-family: "Open Sans", sans-serif;
-    line-height: 1.6;
-    color: var(--deep-blue);
+    line-height: auto;
+    color: var(--stone-gray);
     margin: 0;
     padding: 0;
-    max-width: 1200px; /* Limit page width for better design control */
-    margin: auto;
+    max-width: 1000px; /* Limit page width for better design control */
+    margin: 5%;
 }
 
 /* Headings */
@@ -26,7 +26,7 @@ h1, h2, h3 {
 p {
     font-size: 1rem;
     color: var(--deep-blue);
-    margin: 0 0 1.5rem 0;
+    margin: 0;
 }
 
 /* Social Media Links */
@@ -47,30 +47,32 @@ p {
 
 .hero h1 {
     position: absolute;
-    top: 20%;
-    left: 10%;
-    color: var(--white);
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
-    padding: 0.5rem 1rem;
-    font-size: 2.5rem;
-    border-radius: 5px;
+    top: 10%;
+    left: 5%;
+    right: center;
+    color: var(--stone-gray);
+    background-color: rgba(10, 8, 66, 0.6); /* Semi-transparent black background */
+    padding: 0;
+    font-size: 50px;
+    border-radius: 8px;
 }
 
 .hero article {
     position: absolute;
-    bottom: 10%;
-    left: 10%;
+    bottom: 0.05%;
+    left: 0.5%;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 1rem;
-    border-radius: 5px;
-    max-width: 400px;
+    border-radius: ;
+    max-width: 0.1;
 }
 
 .hero article img {
     float: right;
-    width: 50px;
-    height: 50px;
-    margin-left: 1rem;
+    width: 75px;
+    height: 75px;
+    margin-left: 0%; 
+    
 }
 
 .social-media a img {
@@ -78,7 +80,37 @@ p {
     margin: 0 0.5rem;
 }
 
-/* Footer Links */
-footer a {
-    text-decoration: underline; /* Keep underlines for footer links */
+/* Footer Styling */
+footer {
+    background-color: var(--stone-gray);
+    color: var(--stone-gray);
+    text-align: center;
+    padding:  0;
+    margin-top: 1rem;
+  }
+  
+  footer p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  /* Social Media Links */
+footer .sociallinks {
+  
+  justify-content: center;
+  gap: 15px; /* Space between icons */
+  margin-top: 1rem;
 }
+
+footer .sociallinks a img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    
+  }
+  
+  footer .sociallinks a img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+
