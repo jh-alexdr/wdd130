@@ -8,7 +8,7 @@
 /* General Styling */
 body {
     font-family: "Open Sans", sans-serif;
-    line-height: auto;
+    line-height: 10%;
     color: var(--stone-gray);
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ p {
     position: absolute;
     top: 10%;
     left: 5%;
-    right: center;
+    right: 2px;
     color: var(--stone-gray);
     background-color: rgba(10, 8, 66, 0.6); /* Semi-transparent black background */
     padding: 0;
@@ -63,8 +63,8 @@ p {
     left: 0.5%;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 1rem;
-    border-radius: ;
-    max-width: 0.1;
+    border-radius: 5px;
+    max-width: 0.1px;
 }
 
 .hero article img {
