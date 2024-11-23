@@ -1,0 +1,84 @@
+:root {
+    --deep-blue: #004a7c;
+    --turquoise: #157a6e;
+    --white: #f5f5f5;
+    --stone-gray: #a9a9a9;
+}
+
+/* General Styling */
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+    color: var(--deep-blue);
+    margin: 0;
+    padding: 0;
+    max-width: 1200px; /* Limit page width for better design control */
+    margin: auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: "Oswald", sans-serif;
+    color: var(--turquoise);
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
+    color: var(--deep-blue);
+    margin: 0 0 1.5rem 0;
+}
+
+/* Social Media Links */
+.social-media a {
+    text-decoration: none;
+}
+
+/* Hero Container */
+.hero {
+    position: relative;
+}
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    padding: 0.5rem 1rem;
+    font-size: 2.5rem;
+    border-radius: 5px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.hero article img {
+    float: right;
+    width: 50px;
+    height: 50px;
+    margin-left: 1rem;
+}
+
+.social-media a img {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+/* Footer Links */
+footer a {
+    text-decoration: underline; /* Keep underlines for footer links */
+}
