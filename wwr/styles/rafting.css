@@ -68,13 +68,13 @@ p {
     left: 10%;
     right: 10%;
     background-color: rgba(193, 223, 223, 0.6); /* Semi-transparent white background */
-    padding: 15px;
+    padding: 0px;
     height: auto;
 }
 
 .hero article img {
     float: right;
-    width: 25%;
+    width: 15%;
     height: auto;
     margin-left: 20px;  
     display: block;
