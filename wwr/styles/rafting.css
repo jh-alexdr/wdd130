@@ -17,7 +17,7 @@ body {
 }
 
 /* Headings */
-h1, h2, h3 {
+h1, h2,{
     font-family: "Oswald", sans-serif;
     color: var(--turquoise);
     margin: 20px 0;
@@ -27,7 +27,9 @@ h1, h2, h3 {
 p {
     font-size: 1.2rem;
     color: var(--deep-blue);
-    line-height: 1.8;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
 }
 
 /* Social Media Links */
@@ -48,30 +50,35 @@ p {
 
 .hero h1 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     color: var(--stone-gray);
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    padding: 20px;
-    border-radius: 10px;
+    background-color: rgba(60, 11, 80, 0.5); /* Semi-transparent black background */
+    padding: 10px 20px;
+    border-radius: 5px;
     text-align: center;
+    font-size: 3rem;
+    transform: translateX(-50%);
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    left: 10%;
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 20px;
     border-radius: 10px;
-    max-width: 300px;
+    max-width: 400px;
+    
+    
 }
 
 .hero article img {
     float: right;
-    max-width: 50%;
+    max-width: 40%;
     height: auto;
-    margin-left: 15px;    
+    margin-left: 15px;  
+      
 }
 
 .social-media a img {
