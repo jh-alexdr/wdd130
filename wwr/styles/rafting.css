@@ -141,8 +141,8 @@ nav a {
     place-self: center;
     grid-column: 2;
     grid-row: 2;
-    height: auto;
-    width: 100%;
+    height: 200px;
+    max-width: fit-content;
 }
 
 .History p {
