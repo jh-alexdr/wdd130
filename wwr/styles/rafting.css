@@ -240,68 +240,73 @@ footer .sociallinks a img {
     margin: 1rem;
 }
 
-/* General Styles (shared) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
-/* Contact Information Section */
-.contact-info .info-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
 }
 
-.contact-info .map {
-    width: 300px;
-    height: 200px;
-    border: 1px solid #ccc;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.contact-info .details {
-    flex: 1;
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
 
-/* Team Section */
-.team .employees {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
-.team .employee img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+main {
+    padding: 20px;
 }
 
-/* Contact Form */
-.contact-form .form-group-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+.company-info, .employee-profiles, .contact-form {
+    margin-bottom: 40px;
 }
 
-.contact-form input, .contact-form textarea {
+.map-container iframe {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    height: 300px;
+    border: none;
 }
 
-.contact-form button {
-    background-color: #004080;
-    color: white;
-    padding: 10px 20px;
+.employee-profiles {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profile {
+    text-align: center;
+}
+
+.contact-form label, .contact-form textarea, .contact-form input, .contact-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    padding: 10px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-.contact-form button:hover {
-    background-color: #003366;
+button:hover {
+    background: #555;
 }
