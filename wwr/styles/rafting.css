@@ -239,6 +239,114 @@ footer .sociallinks a img {
     height: 24px;
     margin: 1rem;
 }
+
+/* Map and Address Section */
+.map-address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid var(--stone-gray);
+    border-radius: 5px;
+}
+
+.map-address img {
+    flex: 1;
+    max-width: 200px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.map-address div {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #122c29;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Team Section */
+.team-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d6eae1;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+}
+
+.team-section .team-member {
+    text-align: center;
+    flex: 1;
+}
+
+.team-section img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #f5f5f5;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border: 1px solid var(--stone-gray);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--stone-gray);
+    border-radius: 5px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #122c29;
+}
+
+.contact-form .checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.contact-form .checkbox input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.contact-form button {
+    align-self: flex-end;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background-color: var(--deep-blue);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--turquoise);
+}
+
+/* Footer Link */
+.footer-link {
+    grid-column: 3;
+    text-align: right;
+    font-size: 14px;
+}
+
   
 
   

@@ -25,77 +25,76 @@
         </header>
         <main>
             <section>
-                <h2>Contact Information</h2>
-                <p>Address: Ayapamba Oe2D, Quito City, S22-37 </p>
-                <p>Phone: (+593) 992957913</p>
-                <p>Email: contact@jhalexrafting.com</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4431670493552!2d-78.53700279999998!3d-0.2740893000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d598eca2cbe039%3A0xa76a8b20ee10a33d!2sAyapamba%20Oe2-197%2C%20Quito%20170131!5e0!3m2!1ses-419!2sec!4v1733436521077!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </section>
+                <h1>Contact Information</h1>
+                <div class="info">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4431670493552!2d-78.53700279999998!3d-0.2740893000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d598eca2cbe039%3A0xa76a8b20ee10a33d!2sAyapamba%20Oe2-197%2C%20Quito%20170131!5e0!3m2!1ses-419!2sec!4v1733436521077!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="map"></iframe>
+                    <div class="contact-details">
+                        <p><strong>Address:</strong> Ayapamba Oe2D, Quito City, Ecuador</p>
+                        <p><strong>Phone:</strong> (+593) 992957913</p>
+                        <p><strong>Email:</strong> contact@jhalexrafting.com</p>
+                    </div>
+                    <button class="contact-button">Contact Us</button>
+                </div>
+            </section>        
+            
 
-            <section>
-                <h2>Meet Out Team</h2>
-                <figure>
-                    <img src="images/Employee1.jpg" alt="Frank Potter">
-                    <figcaption>Frank Potter - Customer Support</figcaption>
-                </figure>
+            <section class="team">
+                <h2>Along with the best Team</h2>
+                <div class="employees">
+                    <div class="employee">
+                        <figure>
+                        <img src="images/Employee1.jpg" alt="Frank Potter">
+                        <figcaption>Frank Potter - Customer Support</figcaption>
+                        </figure>
 
-                <figure>
+                    <figure>
                     <img src="images/Employee2.jpg" alt="Justin Sierra">
                     <figcaption>Justin Sierra - Trip Coordinator</figcaption>
-                </figure>
+                    </figure>
 
-                <figure>
+                    <figure>
                     <img src="images/Employee3.jpg" alt="Sara Reynolds">
                     <figcaption>Sara Reynolds - Marketing Lead</figcaption>
-                </figure>  
+                    </figure>  
+                    </div>
+                </div>
             </section>
 
-            <section>
-                <h2>Contact Us</h2>
-                <form action="submit_contact.php" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+            <section class="contact-form">
+                <form action="submit_contact.php" method="post"></form>
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
 
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                
                     <fieldset>
                         <legend>Purpose of the Message:</legend>
                         <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label> 
                         <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
                         <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
                     </fieldset>
-                    <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <label>
-                    <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
-                </label>
-                <button type="submit">Send Message</button>
+
+                    <textarea name="message" rows="5" placeholder="Type your message here"></textarea>
+                    <label>
+                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                    </label>
+                    <button type="submit">Submit</button>
                 </form>
-            </section>
+             </section>
         </main>
+
         <footer>
+
             <nav>
-                <a href="WIREFRAME_LINK_HERE">View Wireframe</a>
-
-        
-
-
-
-
-
+                <a href="https://app.moqups.com/h1QPkFffUgIpttTUjvHByjukNCgmgqJq/view/page/ad64222d5">View Wireframe</a>
+            </nav>
 
             <p>©️ 2024 👍 Jhalex Deep Rafting Water. 😎Jhon Tobar</p>
-        <nav class="sociallinks">
-            <a href="https://facebook.com">
-                <img src="images/facebook.jpg" alt="Facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.jpg" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.jpg" alt="Instagram">
-            </a>
-        </nav>
         </footer>
     </body>
 </html>
