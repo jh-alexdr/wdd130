@@ -240,77 +240,32 @@ footer .sociallinks a img {
     margin: 1rem;
 }
 
-/* General styles */
+/* General Styles (shared) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #004080;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 20px;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-nav a.active {
-    text-decoration: underline;
-}
-
-/* Contact Info Section */
-.contact-info {
-    background-color: #e0f7f7;
-    padding: 20px;
-    text-align: center;
-}
-
+/* Contact Information Section */
 .contact-info .info-container {
     display: flex;
-    gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
-}
-
-.contact-info .map-container {
-    flex: 1;
-    height: 300px;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .contact-info .map {
-    width: 100%;
+    width: 300px;
     height: 200px;
-    border: 0;
+    border: 1px solid #ccc;
 }
 
 .contact-info .details {
     flex: 1;
-    font-size: 16px;
 }
 
 /* Team Section */
-.team {
-    background-color: #d6f5d6;
-    padding: 20px;
-    text-align: center;
-}
-
 .team .employees {
     display: flex;
     justify-content: center;
@@ -318,42 +273,22 @@ nav a.active {
 }
 
 .team .employee img {
-    border-radius: 50%;
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.team .employee {
-    text-align: center;
-}
-
-
-/* Form Section */
-.contact-form {
-    background-color: #f9f9f9;
-    padding: 20px;
-    text-align: center;
-}
-
-.contact-form .form-group {
-    flex: 1;
-}
-
+/* Contact Form */
 .contact-form .form-group-row {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.contact-form label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
 .contact-form input, .contact-form textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -361,20 +296,12 @@ nav a.active {
 .contact-form button {
     background-color: #004080;
     color: white;
+    padding: 10px 20px;
     border: none;
-    padding: 10px 15px;
-    cursor: pointer;
     border-radius: 5px;
+    cursor: pointer;
 }
 
-footer {
-    background-color: #ccc;
-    text-align: center;
-    padding: 10px;
-}
-
-footer a {
-    color: #004080;
-    text-decoration: none;
-    font-weight: bold;
+.contact-form button:hover {
+    background-color: #003366;
 }
